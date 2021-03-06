@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 
+<style>
+#toolbar{
+    font-size: 15px;
+    display: flex;
+    padding-top: 20px;
+}
+</style>
+
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
 </head>
 
+<!--Toolbar needs to be aligned to the top, with last three pushed over to the end.-->
+<!--logo needs to be centred to page-->
+<!--foot needs to aligned to bottom of page-->
+
 <body>
-    <div class="toolbar">
-        <a class="about" href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a><br>
-        <a class="store" href="https://store.google.com/GB?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a>
+ 
+    <div id="toolbar">
+        <div class="about">
+            <a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a><br>
+        </div>
+        <div class="store">
+            <a href="https://store.google.com/GB?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a>
+        </div>
+        
+        <div class="gmail">
+            <a href="https://mail.google.com/mail/&ogbl">Gmail</a>
+        </div><br>
+        <div class="images">
+            <a href="https://www.google.co.uk/imghp?hl=en&ogbl">Images</a>
+        </div>
+        <div>
+            <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Sign in</a>
+        </div>
     </div>
     
-     <div><img class="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+    <div id="logo">
+        <img class="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
 </body>
+
+<footer>
+    <div id="footer">
+        <a href="">Advertising</a>
+    </div>
+    <div>
+        <a href="">Business</a>
+    </div>
+    <div>
+        <a href=""> How Search works</a>
+    </div>
+</footer>
 
 </html>
